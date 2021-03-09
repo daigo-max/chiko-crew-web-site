@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*---------------共通部分---------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    line-height: 1.7;
+    columns: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+/*--------------header-----------------*/
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem; /*16 * 1.25 = 20px*/
+    text-transform: uppercase;/*大文字*/
+    margin-top: 34px;
+    list-style: none;/*点なし*/
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;/*カーソルを合わせたときの装飾*/
+}
+.page-header {
+    display: flex;/*横並び*/
+    justify-content: space-between;/*両端と均等配置*/
+}
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
