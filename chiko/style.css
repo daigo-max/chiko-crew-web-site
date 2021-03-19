@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*---------------共通部分---------------*/
+/*---------------------------------共通部分-----------------------------------*/
 html {
     font-size: 100%;
 }
@@ -83,4 +83,24 @@ img {
 }
 #home .page-title {
     text-transform: none;
+}
+
+/*--------------------------------------NEWS------------------------------------------*/
+#news {
+    background-image: url(img/chiko-main.jpg);
+    height: 270px;
+    /*margin-bottom: 40px;*/
+}
+#news .page-title {
+    text-align: center;
+}
+/*----footer----*/
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
 }
