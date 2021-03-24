@@ -246,6 +246,16 @@ aside p {
     .big-box img {
         height: auto;
     }
+    /* CONTACT */
+    #contact .page-title {
+        margin-top: 40px;
+    }
+    /* フォーム */
+    input[type = "text"],
+    input[type = "email"],
+    textarea {
+        max-width: 100%;
+    }
 }
 .ad {
     width: 10%;
